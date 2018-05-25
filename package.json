@@ -1,0 +1,25 @@
+{
+  "name": "browser-tools-server",
+  "version": "1.0.0",
+  "description": "broswer like actions controlled from web server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.16.3",
+    "node-exec-promise": "1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketansp/browser-tools-server.git"
+  },
+  "author": "Ketan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ketansp/browser-tools-server/issues"
+  },
+  "homepage": "https://github.com/ketansp/browser-tools-server#readme"
+}
