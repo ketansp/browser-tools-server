@@ -10,7 +10,7 @@ module.exports = {
     } else if (browserName == 'firefox'){
       return firefoxBrowser;
     } else {
-      return new Error('Invalid browser');
+      throw new Error('Invalid browser');
     }
   }
 };

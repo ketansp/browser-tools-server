@@ -13,7 +13,10 @@ module.exports = {
   },
 
   cleanup : function(){
-
+    return exec('rm ~/.mozilla/firefox/*.default/*.sqlite ~/.mozilla/firefox/*default/sessionstore.js')
+    .then(function(){
+      return exec('rm -r ~/.cache/mozilla/firefox/*.default/*');
+    });
   },
 
   geturl : function (){

@@ -12,7 +12,10 @@ module.exports = {
   },
 
   cleanup : function(){
-
+    return exec('rm ~/.config/google-chrome/Default/')
+    .then(function(){
+      return exec('rm ~/.cache/google-chrome');
+    });
   },
 
   geturl : function (){
