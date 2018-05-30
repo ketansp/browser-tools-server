@@ -15,9 +15,10 @@ nvm alias default 8.9.0
 ```npm install``` or ```yarn install```
 
 ## Supported combinations
-google chrome and firefox browsers are supported on ubuntu based linux platform
+google ```chrome``` and ```firefox``` browsers are supported on ubuntu based linux platform
 
 ### Starting server on your machine
+To start the application run ```node server.js```
 You can access the application at `localhost:3000`
 
 ### For starting a browser
